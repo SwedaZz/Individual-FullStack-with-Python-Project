@@ -33,7 +33,7 @@ DIEGIMO PROCESAS:
 1. Sukuriame virtualią aplinką (VA);
 2. Į VA perkeliame atsiųstus failus;
 3. Į VA diegiame reikalingus modulius iš requirements.txt (django, pillow);
-4. Atliekame migracijas ir kartu sukuriame duomenų bazę (python manage.py migrate);
+4. Atliekame migracijas ir kartu sukuriame duomenų bazę (python manage.py makemigrations; python manage.py migrate);
 5. Sukuriame superUser (python manage.py createsuperuser);
 6. Paleidžiame serverį (python manage.py runserver);
 7. Per nuorodą einame į sukurtą blog puslapių administratorių.
